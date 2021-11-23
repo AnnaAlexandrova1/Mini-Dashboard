@@ -63,11 +63,13 @@ body {
   background: linear-gradient(90deg, #84fab0 0%, #8fd3f4 100%);
 }
 .hold {
-  border: 5px solid #eee;
+  border: 5px solid #64bbed;
+  box-shadow: 10px #d7ecf7;
 }
 .hide {
   display: none;
 }
 .hovered {
-  border-top: 2px solid red;
+  border: 2px solid #6664ed;
+  border-radius: 15px;
   }

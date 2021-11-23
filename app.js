@@ -1,5 +1,5 @@
 const item = document.querySelector('.item')
-const placeholder = document.querySelectorAll('placeholder')
+const placeholders = document.querySelectorAll('.placeholder')
 
 console.log(item);
 item.addEventListener('dragstart', dragstart);
@@ -23,6 +23,7 @@ event.target.classList.remove('hold', 'hide')
 }
 
 function dragover(event) {
+ event.preventDefault()
  console.log('drag over')  
 }
 function dragenter(event) {
@@ -30,8 +31,11 @@ function dragenter(event) {
  console.log('drag enter')    
 }
 function dragleave(event) {
+ event.target.classList.remove('hovered')
  console.log('drag leave')    
 }
 function dragdrop(event) {
+ event.target.append(item)
+ event.target.classList.remove('hovered')
  console.log('drag drop')   
 }
