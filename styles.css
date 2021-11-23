@@ -65,6 +65,9 @@ body {
 .hold {
   border: 5px solid #eee;
 }
-.hide{
+.hide {
   display: none;
 }
+.hovered {
+  border-top: 2px solid red;
+  }
