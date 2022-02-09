@@ -1,9 +1,10 @@
 # Mini Dashboard
 
 Простой пример дашборда с применением:  
--ul - HTML
-+ul - CSS
-+ul - JavaScript
+* HTML
+* CSS
+* JavaScript
 
 Реализована возможность перетаскивать задачи в разные статусы.
 
+![](https://github.com/AnnaAlexandrova1/Mini-Dashboard/blob/master/dashboard.png)
